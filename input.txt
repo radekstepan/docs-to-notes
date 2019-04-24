@@ -1,0 +1,60 @@
+﻿17th January 2019 - Title
+
+
+Quote #1
+- Book (Author)
+
+
+Quote #2
+- ibid.
+
+
+
+________________
+
+
+
+
+7th March 2019
+
+
+Paragraph.
+
+
+________________
+
+
+
+
+10th March 2019
+
+
+Paragraph 1 with a ref[1].
+
+
+---
+
+
+Paragraph 2.
+
+
+
+________________
+
+
+
+
+1st April 2019 - Title
+
+
+Quote
+- Author
+
+
+---
+
+
+Paragraph
+
+________________
+[1] https://example.com

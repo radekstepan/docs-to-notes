@@ -1,0 +1,17 @@
+{
+  "name": "docs-to-notes",
+  "version": "0.0.1",
+  "description": "Convert Google Docs text files into notes",
+  "main": "index.js",
+  "repository": "https://github.com/radekstepan/docs-to-notes",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "chrono-node": "1.3.11",
+    "glob": "7.1.3",
+    "ora": "3.4.0",
+    "serialize-error": "4.1.0",
+    "slugify": "1.3.4",
+    "smart-truncate": "1.0.1"
+  }
+}
