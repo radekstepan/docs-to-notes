@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Convert Google Docs text files into notes",
   "main": "index.js",
+  "bin": {
+    "docs-to-notes": "./index.js"
+  },
   "repository": "https://github.com/radekstepan/docs-to-notes",
   "license": "UNLICENSED",
   "private": true,
