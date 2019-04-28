@@ -8,7 +8,7 @@ const ora = require('ora');
 const error = require('serialize-error');
 const glob = promisify(require('glob'));
 const chrono = require('chrono-node');
-const truncate = require('smart-truncate');
+const truncate = require('cli-truncate');
 const slugify = require('slugify');
 
 const pad = (num, size) => ('0000' + num).substr(-size);
@@ -76,7 +76,7 @@ const ibid = /- ibid[\.?]/g;
           const prefix = arr.length > 1 ? pad(i + 1, size(arr.length)) + '-' : '';
 
           // Generate title.
-          const title = truncate(entry.trim().split(EOL, 1)[0], 40, {mark: ''});
+          const title = truncate(entry.trim().split(EOL, 1)[0], 40).replace('…', '');
           const name = `${date}-${prefix}${slugify(title.replace(/[^\w\s]/gi, ''), {
             replacement: '_',
             lower: true,
